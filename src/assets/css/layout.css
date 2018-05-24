@@ -1,0 +1,1 @@
+.hp-layout{display:flex;flex-direction:column;flex:auto;background-color:rgba(255,255,255,0.8)}.hp-layout .hp-layout-header,.hp-layout .hp-layout-footer{flex:0 0 auto}.hp-layout .hp-layout-header{background:#000;color:rgba(255,255,255,0.95);padding:16px;font-size:16px}.hp-layout .hp-layout-footer{background:rgba(255,255,255,0.95);color:#000;padding:16px;font-size:16px}

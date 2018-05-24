@@ -1,0 +1,25 @@
+
+.hp-layout {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background-color: $bodyBgColor;
+
+    .hp-layout-header, .hp-layout-footer{
+        flex: 0 0 auto;
+    }
+    
+    .hp-layout-header{
+        background: $layout-header-bg;
+        color: $layout-header-color;
+        padding: $layout-header-padding;
+        font-size: $layout-header-fontSize;
+    }
+    
+    .hp-layout-footer{
+        background: $layout-footer-bg;
+        color: $layout-footer-color;
+        padding: $layout-footer-padding;
+        font-size: $layout-footer-fontSize;
+    }
+}
