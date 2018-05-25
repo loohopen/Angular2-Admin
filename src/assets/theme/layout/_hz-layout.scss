@@ -9,6 +9,12 @@
         flex: 0 0 auto;
     }
     
+    .hp-layout-content {
+        flex: auto;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
     .hp-layout-header{
         background: $layout-header-bg;
         color: $layout-header-color;
@@ -21,5 +27,17 @@
         color: $layout-footer-color;
         padding: $layout-footer-padding;
         font-size: $layout-footer-fontSize;
+    }
+    .hp-layout-sider-children{
+        background: $layout-sider-bg;
+        color: $layout-sider-color;
+        position: relative;
+        transition: all .2s;
+    }
+    .hp-layout-sider-trigger{
+        text-align: center;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
     }
 }

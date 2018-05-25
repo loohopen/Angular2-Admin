@@ -1,0 +1,11 @@
+<div class="hp-layout-sider-children" [ngClass]="hpSiderClass" [ngStyle]="{'width.px': width}">
+    <ng-content></ng-content>
+</div>
+
+<div class="hp-layout-sider-trigger" (click)="toggleCollapse()">
+    <ng-template *ngTemplateOutlet="hpTrigger"></ng-template>
+</div>
+
+<ng-template #defaultTrigger>
+    <i class="fas fa-sliders-h"></i>
+</ng-template>
